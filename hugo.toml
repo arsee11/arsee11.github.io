@@ -3,6 +3,32 @@ languageCode = 'zh-cn'
 title = 'deeptime'
 theme="terminal"
 
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "DeepTime"
+    subtitle = "Deep time thinking"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "DeepTime"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+
 [caches]
     [caches.images]
         dir=':cacheDir/images'
